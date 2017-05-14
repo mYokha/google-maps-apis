@@ -1,4 +1,4 @@
-#Find your NYC home app
+# Find your NYC home app
 
 ### This is not actually the project I've done by myself!!!
 
