@@ -23,8 +23,9 @@ h1 {
 }
 
 #hide-listings,
-#show-listings {
-	width: 48%;
+#show-listings,
+#toggle-drawing{
+	width: 45%;
 }
 
 hr {
@@ -62,8 +63,38 @@ hr {
 	font-size: 12px;
 }
 
+#polygon-area-placeholder {
+	font-size: 10px;
+	color: #bbb;
+}
+
 #toggle-drawing {
-	width: 27%;
 	position: relative;
-	margin-left: 10px;
+}
+
+.function-block {
+	display: flex;
+	flex-direction: column;
+	background-color: #eee;
+	padding: 15px;
+}
+
+.input-block {
+	display: flex;
+	justify-content: space-between;
+}
+
+#zoom-to-area-text {
+	width: 80%;
+}
+
+.directions-select {
+	width: 22%;
+}
+
+#search-within-time-text {
+	width: 35%;
+}
+#places-search{
+	width: 85%
 }
